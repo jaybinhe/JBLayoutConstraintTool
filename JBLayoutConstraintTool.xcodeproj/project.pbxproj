@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730AC0BC1CEC896D0014B1FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0BB1CEC896D0014B1FB /* main.m */; };
+		730AC0BF1CEC896D0014B1FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0BE1CEC896D0014B1FB /* AppDelegate.m */; };
+		730AC0C21CEC896D0014B1FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0C11CEC896D0014B1FB /* ViewController.m */; };
+		730AC0C51CEC896D0014B1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AC0C31CEC896D0014B1FB /* Main.storyboard */; };
+		730AC0C71CEC896D0014B1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730AC0C61CEC896D0014B1FB /* Assets.xcassets */; };
+		730AC0CA1CEC896D0014B1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AC0C81CEC896D0014B1FB /* LaunchScreen.storyboard */; };
+		730AC0D51CEC896D0014B1FB /* JBLayoutConstraintToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0D41CEC896D0014B1FB /* JBLayoutConstraintToolTests.m */; };
+		730AC0E01CEC896D0014B1FB /* JBLayoutConstraintToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0DF1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.m */; };
+		730AC0F81CEC94A50014B1FB /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AC0F71CEC94A50014B1FB /* UIView+Constraint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		730AC0D11CEC896D0014B1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730AC0AF1CEC896D0014B1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730AC0B61CEC896D0014B1FB;
+			remoteInfo = JBLayoutConstraintTool;
+		};
+		730AC0DC1CEC896D0014B1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730AC0AF1CEC896D0014B1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730AC0B61CEC896D0014B1FB;
+			remoteInfo = JBLayoutConstraintTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730AC0B71CEC896D0014B1FB /* JBLayoutConstraintTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBLayoutConstraintTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AC0BB1CEC896D0014B1FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730AC0BD1CEC896D0014B1FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		730AC0BE1CEC896D0014B1FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		730AC0C01CEC896D0014B1FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		730AC0C11CEC896D0014B1FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		730AC0C41CEC896D0014B1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730AC0C61CEC896D0014B1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730AC0C91CEC896D0014B1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730AC0CB1CEC896D0014B1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730AC0D01CEC896D0014B1FB /* JBLayoutConstraintToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBLayoutConstraintToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AC0D41CEC896D0014B1FB /* JBLayoutConstraintToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBLayoutConstraintToolTests.m; sourceTree = "<group>"; };
+		730AC0D61CEC896D0014B1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730AC0DB1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBLayoutConstraintToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AC0DF1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBLayoutConstraintToolUITests.m; sourceTree = "<group>"; };
+		730AC0E11CEC896D0014B1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730AC0F61CEC94A50014B1FB /* UIView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraint.h"; sourceTree = "<group>"; };
+		730AC0F71CEC94A50014B1FB /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730AC0B41CEC896D0014B1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0CD1CEC896D0014B1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0D81CEC896D0014B1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730AC0AE1CEC896D0014B1FB = {
+			isa = PBXGroup;
+			children = (
+				730AC0B91CEC896D0014B1FB /* JBLayoutConstraintTool */,
+				730AC0D31CEC896D0014B1FB /* JBLayoutConstraintToolTests */,
+				730AC0DE1CEC896D0014B1FB /* JBLayoutConstraintToolUITests */,
+				730AC0B81CEC896D0014B1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730AC0B81CEC896D0014B1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0B71CEC896D0014B1FB /* JBLayoutConstraintTool.app */,
+				730AC0D01CEC896D0014B1FB /* JBLayoutConstraintToolTests.xctest */,
+				730AC0DB1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730AC0B91CEC896D0014B1FB /* JBLayoutConstraintTool */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0F51CEC94A50014B1FB /* ConstraintTool */,
+				730AC0BD1CEC896D0014B1FB /* AppDelegate.h */,
+				730AC0BE1CEC896D0014B1FB /* AppDelegate.m */,
+				730AC0C01CEC896D0014B1FB /* ViewController.h */,
+				730AC0C11CEC896D0014B1FB /* ViewController.m */,
+				730AC0C31CEC896D0014B1FB /* Main.storyboard */,
+				730AC0C61CEC896D0014B1FB /* Assets.xcassets */,
+				730AC0C81CEC896D0014B1FB /* LaunchScreen.storyboard */,
+				730AC0CB1CEC896D0014B1FB /* Info.plist */,
+				730AC0BA1CEC896D0014B1FB /* Supporting Files */,
+			);
+			path = JBLayoutConstraintTool;
+			sourceTree = "<group>";
+		};
+		730AC0BA1CEC896D0014B1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0BB1CEC896D0014B1FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		730AC0D31CEC896D0014B1FB /* JBLayoutConstraintToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0D41CEC896D0014B1FB /* JBLayoutConstraintToolTests.m */,
+				730AC0D61CEC896D0014B1FB /* Info.plist */,
+			);
+			path = JBLayoutConstraintToolTests;
+			sourceTree = "<group>";
+		};
+		730AC0DE1CEC896D0014B1FB /* JBLayoutConstraintToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0DF1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.m */,
+				730AC0E11CEC896D0014B1FB /* Info.plist */,
+			);
+			path = JBLayoutConstraintToolUITests;
+			sourceTree = "<group>";
+		};
+		730AC0F51CEC94A50014B1FB /* ConstraintTool */ = {
+			isa = PBXGroup;
+			children = (
+				730AC0F61CEC94A50014B1FB /* UIView+Constraint.h */,
+				730AC0F71CEC94A50014B1FB /* UIView+Constraint.m */,
+			);
+			path = ConstraintTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730AC0B61CEC896D0014B1FB /* JBLayoutConstraintTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AC0E41CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintTool" */;
+			buildPhases = (
+				730AC0B31CEC896D0014B1FB /* Sources */,
+				730AC0B41CEC896D0014B1FB /* Frameworks */,
+				730AC0B51CEC896D0014B1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBLayoutConstraintTool;
+			productName = JBLayoutConstraintTool;
+			productReference = 730AC0B71CEC896D0014B1FB /* JBLayoutConstraintTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		730AC0CF1CEC896D0014B1FB /* JBLayoutConstraintToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AC0E71CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintToolTests" */;
+			buildPhases = (
+				730AC0CC1CEC896D0014B1FB /* Sources */,
+				730AC0CD1CEC896D0014B1FB /* Frameworks */,
+				730AC0CE1CEC896D0014B1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730AC0D21CEC896D0014B1FB /* PBXTargetDependency */,
+			);
+			name = JBLayoutConstraintToolTests;
+			productName = JBLayoutConstraintToolTests;
+			productReference = 730AC0D01CEC896D0014B1FB /* JBLayoutConstraintToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		730AC0DA1CEC896D0014B1FB /* JBLayoutConstraintToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AC0EA1CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintToolUITests" */;
+			buildPhases = (
+				730AC0D71CEC896D0014B1FB /* Sources */,
+				730AC0D81CEC896D0014B1FB /* Frameworks */,
+				730AC0D91CEC896D0014B1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730AC0DD1CEC896D0014B1FB /* PBXTargetDependency */,
+			);
+			name = JBLayoutConstraintToolUITests;
+			productName = JBLayoutConstraintToolUITests;
+			productReference = 730AC0DB1CEC896D0014B1FB /* JBLayoutConstraintToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730AC0AF1CEC896D0014B1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jaybin;
+				TargetAttributes = {
+					730AC0B61CEC896D0014B1FB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					730AC0CF1CEC896D0014B1FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 730AC0B61CEC896D0014B1FB;
+					};
+					730AC0DA1CEC896D0014B1FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 730AC0B61CEC896D0014B1FB;
+					};
+				};
+			};
+			buildConfigurationList = 730AC0B21CEC896D0014B1FB /* Build configuration list for PBXProject "JBLayoutConstraintTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730AC0AE1CEC896D0014B1FB;
+			productRefGroup = 730AC0B81CEC896D0014B1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730AC0B61CEC896D0014B1FB /* JBLayoutConstraintTool */,
+				730AC0CF1CEC896D0014B1FB /* JBLayoutConstraintToolTests */,
+				730AC0DA1CEC896D0014B1FB /* JBLayoutConstraintToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730AC0B51CEC896D0014B1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AC0CA1CEC896D0014B1FB /* LaunchScreen.storyboard in Resources */,
+				730AC0C71CEC896D0014B1FB /* Assets.xcassets in Resources */,
+				730AC0C51CEC896D0014B1FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0CE1CEC896D0014B1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0D91CEC896D0014B1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730AC0B31CEC896D0014B1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AC0C21CEC896D0014B1FB /* ViewController.m in Sources */,
+				730AC0BF1CEC896D0014B1FB /* AppDelegate.m in Sources */,
+				730AC0BC1CEC896D0014B1FB /* main.m in Sources */,
+				730AC0F81CEC94A50014B1FB /* UIView+Constraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0CC1CEC896D0014B1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AC0D51CEC896D0014B1FB /* JBLayoutConstraintToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AC0D71CEC896D0014B1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AC0E01CEC896D0014B1FB /* JBLayoutConstraintToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		730AC0D21CEC896D0014B1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730AC0B61CEC896D0014B1FB /* JBLayoutConstraintTool */;
+			targetProxy = 730AC0D11CEC896D0014B1FB /* PBXContainerItemProxy */;
+		};
+		730AC0DD1CEC896D0014B1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730AC0B61CEC896D0014B1FB /* JBLayoutConstraintTool */;
+			targetProxy = 730AC0DC1CEC896D0014B1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		730AC0C31CEC896D0014B1FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730AC0C41CEC896D0014B1FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730AC0C81CEC896D0014B1FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730AC0C91CEC896D0014B1FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730AC0E21CEC896D0014B1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730AC0E31CEC896D0014B1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730AC0E51CEC896D0014B1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JBLayoutConstraintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730AC0E61CEC896D0014B1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JBLayoutConstraintTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730AC0E81CEC896D0014B1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JBLayoutConstraintToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBLayoutConstraintTool.app/JBLayoutConstraintTool";
+			};
+			name = Debug;
+		};
+		730AC0E91CEC896D0014B1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JBLayoutConstraintToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBLayoutConstraintTool.app/JBLayoutConstraintTool";
+			};
+			name = Release;
+		};
+		730AC0EB1CEC896D0014B1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JBLayoutConstraintToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JBLayoutConstraintTool;
+			};
+			name = Debug;
+		};
+		730AC0EC1CEC896D0014B1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JBLayoutConstraintToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybin.com.JBLayoutConstraintToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JBLayoutConstraintTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730AC0B21CEC896D0014B1FB /* Build configuration list for PBXProject "JBLayoutConstraintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AC0E21CEC896D0014B1FB /* Debug */,
+				730AC0E31CEC896D0014B1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730AC0E41CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AC0E51CEC896D0014B1FB /* Debug */,
+				730AC0E61CEC896D0014B1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730AC0E71CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AC0E81CEC896D0014B1FB /* Debug */,
+				730AC0E91CEC896D0014B1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730AC0EA1CEC896D0014B1FB /* Build configuration list for PBXNativeTarget "JBLayoutConstraintToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AC0EB1CEC896D0014B1FB /* Debug */,
+				730AC0EC1CEC896D0014B1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730AC0AF1CEC896D0014B1FB /* Project object */;
+}
