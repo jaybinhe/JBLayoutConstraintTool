@@ -18,11 +18,15 @@
     for (NSLayoutConstraint *constraint in constraintsArray) {
         if([identifier isEqualToString:constraint.identifier]){
             constraint.constant = constant;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -36,11 +40,15 @@
            NSLayoutAttributeWidth==constraint.firstAttribute &&
            NSLayoutAttributeNotAnAttribute==constraint.secondAttribute){
             constraint.constant = width;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -54,11 +62,15 @@
            NSLayoutAttributeHeight==constraint.firstAttribute &&
            NSLayoutAttributeNotAnAttribute==constraint.secondAttribute){
             constraint.constant = height;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -81,11 +93,15 @@
            topView==constraint.secondItem &&
            NSLayoutAttributeCenterX==constraint.secondAttribute){
             constraint.constant = centerX;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -99,11 +115,15 @@
            topView==constraint.secondItem &&
            NSLayoutAttributeCenterY==constraint.secondAttribute){
             constraint.constant = centerY;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -126,11 +146,15 @@
            secondItem==constraint.secondItem &&
            secondAttribute==constraint.secondAttribute){
             constraint.constant = top;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -144,11 +168,15 @@
            secondItem==constraint.secondItem &&
            secondAttribute==constraint.secondAttribute){
             constraint.constant = bottom;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -162,11 +190,15 @@
            secondItem==constraint.secondItem &&
            secondAttribute==constraint.secondAttribute){
             constraint.constant = left;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 /**
@@ -180,11 +212,15 @@
            secondItem==constraint.secondItem &&
            secondAttribute==constraint.secondAttribute){
             constraint.constant = right;
-            success();
+            if(success){
+                success();
+            }
             return;
         }
     }
-    failure();
+    if(failure){
+        failure();
+    }
 }
 
 @end
