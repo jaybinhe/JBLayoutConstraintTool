@@ -12,14 +12,14 @@
 
 /**
  *
- *  通过identifier更新约束(此方法由添加约束的view调用，一般为父view)
+ *  通过约束的identifier属性更新约束(如果是更新view自身的高、宽等约束，由view自己调用；否则此方法一般由父view调用)
  * 
  *  @param identifier 约束设置的标识属性
  *  @param constant   约束的常量constant值
  *  @param success    成功回调block
  *  @param failure    失败回调block
  */
-- (void)updateConstraintValueWithIdentifier:(NSString *)identifier
+- (void)updateConstraintWithIdentifier:(NSString *)identifier
                                    constant:(CGFloat)constant
                                successBlock:(void (^)(void))success
                                failureBlock:(void (^)(void))failure;

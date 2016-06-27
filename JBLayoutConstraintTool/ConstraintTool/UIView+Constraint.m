@@ -13,7 +13,7 @@
 /**
  *  通过identifier更新约束
  */
-- (void)updateConstraintValueWithIdentifier:(NSString *)identifier constant:(CGFloat)constant successBlock:(void (^)(void))success failureBlock:(void (^)(void))failure{
+- (void)updateConstraintWithIdentifier:(NSString *)identifier constant:(CGFloat)constant successBlock:(void (^)(void))success failureBlock:(void (^)(void))failure{
     NSArray *constraintsArray = self.constraints;
     for (NSLayoutConstraint *constraint in constraintsArray) {
         if([identifier isEqualToString:constraint.identifier]){
